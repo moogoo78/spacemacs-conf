@@ -58,7 +58,7 @@
     (setq mpr (/ tm d 2.5)) ;;沒有進位
     (setq mpr-s (mod mpr 60))
     (message "%d" tm)
-    (message "%dkm, %02d:%02d:%02d => %.2f m/km (%dm%ds), %.2f s/round (%dm%ds)" d hh mm ss hkm hkm-m hkm-s mpr (/ mpr 60) mpr-s)
+    (message "%.2fkm, %02d:%02d:%02d => %.2f m/km (%dm%ds), %.2f s/round (%dm%ds)" d hh mm ss hkm hkm-m hkm-s mpr (/ mpr 60) mpr-s)
     )
   )
 

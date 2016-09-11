@@ -35,7 +35,8 @@
 
 ;inspired:
 ; - http://xahlee.org/emacs/ergonomic_emacs_keybinding.html
-
+(keyboard-translate ?\C-t ?\C-x)
+(keyboard-translate ?\C-x ?\C-t)
 
 
 (global-set-key (kbd "C-c k") 'elscreen-kill-screen-and-buffers)

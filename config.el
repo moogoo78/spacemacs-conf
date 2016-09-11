@@ -2,6 +2,7 @@
 
 (global-linum-mode t) ; line number
 (windmove-default-keybindings)      ; shift + 4way key jump windo
+(setq dotspacemacs-additional-packages '(markdown-mode))
 
 ;; DX7 color like
 
